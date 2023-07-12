@@ -81,7 +81,7 @@ local Tab = Window:CreateTab("🌐 Discord") -- Title, Image
 local Section = Tab:CreateSection("Click to copy discord invite link to clipboard!")
 
 local Button = Tab:CreateButton({
-    Name = "Button Example",
+    Name = "Click To Copy Link!",
     Callback = function()
         local textToCopy = "Click to Copy!" -- Replace with the text you want to copy
 
